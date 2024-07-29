@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* ===============
+    Navbar
+=================== */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.864);
+  position: relative;
+  padding: 5px 10px;
+}
+
+.navbar .logo {
+  display: inline-block;
+}
+
+.navbar h1 {
+  color: aliceblue;
+}
+
+.navbar .nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.navbar .nav ul li {
+  display: inline-block;
+}
+
+.navbar .nav ul li a {
+  padding: 0 20px;
+  color: aliceblue;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar .nav ul li a:hover {
+  color: tan;
+}
+
+/* ===============
+    Hero
+=================== */
+.hero-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/hero\ img.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 90%;
+  padding-top: 15%;
+  margin: auto;
+}
+
+.container span {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.container h2 {
+  font-size: 40px;
+  color: aliceblue;
+  margin: 10px 0 20px 0;
+}
+
+.container p {
+  font-size: 25px;
+  color: aliceblue;
+  margin-bottom: 40px;
+}
+
+.btn-wrapper .learn-more,
+.btn-wrapper .contact {
+  border: none;
+  background-color: rgb(159, 130, 93);
+  padding: 9px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.btn-wrapper .learn-more:hover {
+  background-color: bisque;
+  color: rgba(0, 0, 0, 0.864);
+}
+.btn-wrapper .contact {
+  border: 1px solid #fff;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+.btn-wrapper .contact:hover {
+  border: none;
+  background-color: white;
+  color: #000;
+}
+
+/* ===============
+    Who WE are
+=================== */
+.who-we {
+  max-width: 90%;
+  margin: 50px auto;
+  vertical-align: baseline;
+}
+
+.left-contact {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.left-contact img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.right-contant {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+
+.text-section {
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  margin-left: 80px;
+}
+
+.text-section h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.text-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.who-list {
+  display: inline-block;
+}
+
+.who-list ul li {
+  list-style: none;
+}
+
+.who-list ul li i {
+  font-size: 20px;
+  background-color: bisque;
+  color: rgb(98, 81, 59);
+  padding: 7px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+/* ===============
+    Our Baking
+=================== */
+
+.Our-Baking {
+  background-color: #eeeae3;
+}
+
+.baking-container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.baking-container h2 {
+  font-size: 30px;
+  padding: 30px 0;
+}
+
+.baking-container p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.baking-wrapping .baking {
+  display: inline-block;
+  width: 27%;
+  margin-right: 40px;
+}
+
+.baking img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.baking img:hover {
+  scale: 0.9;
+  cursor: pointer;
+}
+
+.baking-text h3 {
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+.baking-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* =================
+       footer
+==================== */
+.footer {
+  background-color: #191717;
+  padding: 15px 0;
+  text-align: center;
+  color: #eeeae3;
+}
